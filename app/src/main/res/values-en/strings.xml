@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">rubrica</string>
+    <string name="nome">Name:</string>
+    <string name="cognome">Surname:</string>
+    <string name="tel">Telephone:</string>
+    <string name="chiama">Call</string>
+    <string name="sms">SMS</string>
+    <string name="email">Email</string>
+    <string name="indirizzo">Address</string>
+    <string name="emailx">Email:</string>
+    <string name="indirizzox">"Adress: "</string>
+    <string name="addmessage">Contact Added</string>
+    <string name="eliminare">Do you want to delete this contact?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="titoloelimina">Delete</string>
+    <string name="anulla">Cancel</string>
+    <string name="titolocerca">Search</string>
+    <string name="lookup">Insert the surname to search</string>
+    <string name="confermaelimina">Contact deleted</string>
+    <string name="confermamodifica">Contact edited</string>
+    <string name="nocallpermesso">You are not allowed to make calls</string>
+    <string name="nonumber">No telephone number</string>
+    <string name="noemail">No email address</string>
+    <string name="noaddrss">No address</string>
+</resources>

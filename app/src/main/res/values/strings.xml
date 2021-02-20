@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">rubrica</string>
+    <string name="test" translatable="false">Test</string>
+    <string name="nome">Nome: </string>
+    <string name="cognome">Cognome: </string>
+    <string name="tel">Telefono: </string>
+    <string name="emailx">Email: </string>
+    <string name="indirizzox">Indirizzo: </string>
+    <string name="addmessage">Contatto Aggiunto</string>
+    <string name="eliminare">Vuoi eliminare il contatto?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="titoloelimina">Eliminazione</string>
+    <string name="anulla">Annulla</string>
+    <string name="titolocerca">Ricerca</string>
+    <string name="lookup">Inserisci il cognome da cercare</string>
+    <string name="confermaelimina">Contatto eliminato con successo</string>
+    <string name="confermamodifica">Contatto modificato</string>
+    <string name="nocallpermesso">Non è possibile effettuare chiamate</string>
+    <string name="nonumber">Nessun numero di telefono</string>
+    <string name="noemail">Nessun indirizzo email</string>
+    <string name="noaddrss">Nessun indirizzo</string>
+
+
+
+    <string name="chiama">Chiama</string>
+    <string name="sms">SMS</string>
+    <string name="email">Email</string>
+    <string name="indirizzo">Indirizzo</string>
+</resources>

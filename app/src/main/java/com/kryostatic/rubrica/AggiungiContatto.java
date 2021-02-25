@@ -38,6 +38,15 @@ public class AggiungiContatto extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         ContattiDao contatti = db.contattiDao();
+        boolean nomeflag = false;
+        boolean cognomeflag = false;
+        if(nomeans.getText().toString().isEmpty()) nomeflag = true;
+        if(cognomeans.getText().toString().isEmpty()) cognomeflag = true;
+        if(nomeflag || cognomeflag){
+            Toast.makeText(this,"Nome e Cognome sono obbligatori",
+                    Toast.LENGTH_SHORT).show();
+            return;
+        }
         Contatti x = new Contatti(nomeans.getText().toString(),cognomeans.getText().toString(),
                 ntelefonoans.getText().toString(),emailans.getText().toString(),indirizzoans.getText().toString());
         contatti.insertContatto(x);

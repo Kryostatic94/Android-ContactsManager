@@ -57,6 +57,15 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
 
     }
 
+    //questo metodo toglie il fastidioso comportamento del tornare indietro dopo modifica e aggiunta contatto
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(Intent.ACTION_MAIN);
+        i.addCategory(Intent.CATEGORY_HOME);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+    }
+
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.aggiungi){

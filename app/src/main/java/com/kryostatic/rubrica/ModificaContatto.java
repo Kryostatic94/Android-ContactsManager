@@ -47,6 +47,15 @@ public class ModificaContatto extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.confermamodifica){
+            boolean nomeflag = false;
+            boolean cognomeflag = false;
+            if(nomeans.getText().toString().isEmpty()) nomeflag = true;
+            if(cognomeans.getText().toString().isEmpty()) cognomeflag = true;
+            if(nomeflag || cognomeflag){
+                Toast.makeText(this,"Nome e Cognome sono obbligatori",
+                        Toast.LENGTH_SHORT).show();
+                return;
+            }
             a.setNome(nomeans.getText().toString());
             a.setCognome(cognomeans.getText().toString());
             a.setNtelefono(ntelefonoans.getText().toString());
